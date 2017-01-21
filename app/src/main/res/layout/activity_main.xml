@@ -27,11 +27,15 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <Button
+        android:text="Upload Picture"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:id="@+id/upload_button"
+        android:layout_marginTop="183dp"
+        android:layout_below="@+id/section_label"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -41,4 +45,11 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
 </android.support.design.widget.CoordinatorLayout>
+
