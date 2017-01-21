@@ -66,6 +66,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\core-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a7ead0717ba58500f4036e776b973cb140ab1281">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\2\core-2.2.0_8928c8f119a4c3e288d73182c48bc3afa065dfc0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -90,6 +99,15 @@
         revision="25.0.0"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
         <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_1ae39ed025ee766a634a776b7dc4433c7a4593ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\okhttp-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\2\okhttp-3.4.2_927448b1e0adcc7d7eb8d7fc5ca02fabc91810f4\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -153,6 +171,15 @@
         revision="25.0.0"
         sha1="84c98924eff3106f306c3e233cc2e6d84744f518">
         <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-materialize-1.0.0_d2aa5144f9339405b7750895a8a7a4f464893aa4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.8.0_09629c14730323e8a59615e69d508f3f76d4ebdd\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -234,6 +261,15 @@
         revision="25.0.0"
         sha1="f1ef77f0d5c82e1a8f2bc88f596e747602375f26">
         <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-2.1.0_8af8b4d6d9e98008a7075a3333dc5cbfd40be73b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\2\okio-1.11.0_b5398a14222d4e70329dd39fc4d6ef05e12d85ea\classes.dex" />
     </item>
     <item
         is-multidex="true"
