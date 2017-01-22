@@ -10,7 +10,8 @@
         android:layout_height="100dp"
         android:id="@+id/upload_button"
         android:src="@drawable/ic_backup_black_24dp"
-        android:tint="@color/White"
+        android:tint="@color/accent"
+        android:backgroundTint="@color/primary"
         app:fabSize="normal"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
