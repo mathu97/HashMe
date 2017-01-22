@@ -18,6 +18,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -43,6 +44,7 @@ import clarifai2.dto.prediction.Prediction;
 public class ViewActivity extends AppCompatActivity {
 
     String path;
+    public static TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +64,7 @@ public class ViewActivity extends AppCompatActivity {
 
             // List of Recognized Result from Image
             List<String> resultList = ImageRecognizer.recognize(path);
+            textView = (TextView) findViewById(R.id.textView);
 
         } catch (IOException e) {
             e.printStackTrace();

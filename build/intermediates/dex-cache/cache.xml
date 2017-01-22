@@ -21,24 +21,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_f652f6af942f0c7179b04dcf820cd60e5ede4140\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="15c5797fa4f75484420119aa4dc509b2047f396a">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.tbruyelle.rxpermissions-rxpermissions-0.7.1_6bc712fc9ca0bfe2a8ac6b1a8075dab835a8b5be\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -48,39 +30,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter\1.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="21752cbe99942598e0b554b84e79b7c8d6f172f2">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-fastadapter-1.8.0_18ccbab7b507192b4ba3abf4e88c320e8245b34d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\5.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="fba538e4a999351c076639c4febdb49c0b1897f0">
         <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-materialdrawer-5.6.0_c09b2be60f06da1396977fbc70f17f64f00be679\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\core-2.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a7ead0717ba58500f4036e776b973cb140ab1281">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\2\core-2.2.0_8928c8f119a4c3e288d73182c48bc3afa065dfc0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="868df8f5fafb4a5357bea3046ea61ccffba07500">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_268fd7c0f9acd614ae25d7486ce17b9843318230\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,15 +57,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\okhttp-3.4.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\2\okhttp-3.4.2_927448b1e0adcc7d7eb8d7fc5ca02fabc91810f4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -120,39 +66,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\100603498\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.1\381fc1096ba65040d8e80ea43b2e1d9bad02345e\logging-interceptor-3.4.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.1_02e0371ac49b70b68b70802c1ce12a5135a6db76\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_4bb543e6ed4153b1f5bbf74c16dea398b811fb6f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="aee64634871d88a419d59eb743c1258a60f19700">
         <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_4d025722b9636d55464fa09d3cb7084716396c03\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\100603498\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_8d157e15059ddc2cebb49493163bc17ef3f4277f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,30 +93,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\gson-2.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.8.0_09629c14730323e8a59615e69d508f3f76d4ebdd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.jakewharton.timber\timber\4.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="6a11388058c8c82cbdb5e8646f1c37adfc7755d6">
         <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton.timber-timber-4.3.0_6ab9da77f01cc79a49827da5df2eac1365300aca\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_ed95c3e5e0eb974f8c6efbd678462f331d471472\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -228,21 +129,93 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_ffce93bd5a6238ba2eb8ff48374f4633f570cee9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_07f202003876e2ac2d119cc7657f2f7431e38bd0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_f652f6af942f0c7179b04dcf820cd60e5ede4140\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15c5797fa4f75484420119aa4dc509b2047f396a">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.tbruyelle.rxpermissions-rxpermissions-0.7.1_6bc712fc9ca0bfe2a8ac6b1a8075dab835a8b5be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter\1.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="21752cbe99942598e0b554b84e79b7c8d6f172f2">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-fastadapter-1.8.0_18ccbab7b507192b4ba3abf4e88c320e8245b34d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="868df8f5fafb4a5357bea3046ea61ccffba07500">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_268fd7c0f9acd614ae25d7486ce17b9843318230\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.1\381fc1096ba65040d8e80ea43b2e1d9bad02345e\logging-interceptor-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.1_02e0371ac49b70b68b70802c1ce12a5135a6db76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_4bb543e6ed4153b1f5bbf74c16dea398b811fb6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_8d157e15059ddc2cebb49493163bc17ef3f4277f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_ed95c3e5e0eb974f8c6efbd678462f331d471472\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_ffce93bd5a6238ba2eb8ff48374f4633f570cee9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -261,15 +234,6 @@
         revision="25.0.0"
         sha1="f1ef77f0d5c82e1a8f2bc88f596e747602375f26">
         <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-2.1.0_8af8b4d6d9e98008a7075a3333dc5cbfd40be73b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\100603498\Desktop\HashMe\app\build\okio-1.11.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="C:\Users\100603498\Desktop\HashMe\app\build\intermediates\transforms\dex\debug\folders\1000\2\okio-1.11.0_b5398a14222d4e70329dd39fc4d6ef05e12d85ea\classes.dex" />
     </item>
     <item
         is-multidex="true"

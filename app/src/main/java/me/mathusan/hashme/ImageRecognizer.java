@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import android.os.AsyncTask;
 import android.view.View;
+import android.widget.TextView;
 
 import clarifai2.api.ClarifaiBuilder;
 import clarifai2.api.ClarifaiClient;
@@ -90,7 +91,11 @@ public class ImageRecognizer {
         protected void onPostExecute(List<String> resultList)
         {
             // Iteration of Result
-            for(String result : resultList) {System.out.println(result);}
+            for(String result : resultList) {
+
+                ViewActivity.textView.append("\n");
+                ViewActivity.textView.append(" #" + result);
+            }
         }
 
         }
