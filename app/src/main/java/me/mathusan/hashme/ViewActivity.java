@@ -1,6 +1,7 @@
 package me.mathusan.hashme;
 
 import android.Manifest;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
@@ -45,6 +46,7 @@ public class ViewActivity extends AppCompatActivity {
 
     String path;
     public static TextView textView;
+    public static ProgressDialog mProgress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +58,7 @@ public class ViewActivity extends AppCompatActivity {
         Intent intent = getIntent();
         Uri uri = intent.getParcelableExtra("uri");
         path = intent.getStringExtra("path");
+        mProgress = new ProgressDialog(ViewActivity.this);
 
         try {
             Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);

@@ -54,6 +54,11 @@ public class ImageRecognizer {
 
     private static class Clarifaitask extends AsyncTask<List<String>, String, List<String>>{
 
+        @Override
+        protected void onPreExecute()
+        {
+            ViewActivity.mProgress.show();
+        }
 
         @Override
         protected List<String> doInBackground(List<String>... params) {
@@ -90,6 +95,7 @@ public class ImageRecognizer {
         @Override
         protected void onPostExecute(List<String> resultList)
         {
+            ViewActivity.mProgress.hide();
             // Iteration of Result
             for(String result : resultList) {
 
