@@ -1,6 +1,8 @@
 package me.mathusan.hashme;
 
 import android.Manifest;
+import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
@@ -10,6 +12,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -17,7 +20,11 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import org.json.JSONArray;
@@ -27,6 +34,7 @@ import org.json.JSONObject;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import clarifai2.api.ClarifaiBuilder;
@@ -44,7 +52,9 @@ import clarifai2.dto.prediction.Prediction;
 public class ViewActivity extends AppCompatActivity {
 
     String path;
-    public static TextView textView;
+    public static ProgressDialog mProgress;
+    public static ListView lv;
+    Dialog dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,23 +63,46 @@ public class ViewActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        dialog = new Dialog(ViewActivity.this);
+
         Intent intent = getIntent();
-        Uri uri = intent.getParcelableExtra("uri");
+        final Uri uri = intent.getParcelableExtra("uri");
         path = intent.getStringExtra("path");
+        mProgress = new ProgressDialog(ViewActivity.this);
 
-        try {
-            Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
-            ImageView imageView = (ImageView) findViewById(R.id.imageview);
-            imageView.setImageBitmap(bitmap);
+        lv = (ListView) findViewById(R.id.listView);
 
-            // List of Recognized Result from Image
-            List<String> resultList = ImageRecognizer.recognize(path);
-            textView = (TextView) findViewById(R.id.textView);
-
-        } catch (IOException e) {
-            e.printStackTrace();
+        FloatingActionButton viewPic = (FloatingActionButton) findViewById(R.id.viewPic);
+        viewPic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // custom dialog
+                dialog.setContentView(R.layout.custom);
+                dialog.setTitle("Uploaded Picture");
+                try {
+                    Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+                    ImageView imageView = (ImageView) dialog.findViewById(R.id.imageView);
+                    imageView.setImageBitmap(bitmap);
+            }
+            catch (IOException e) {
+                e.printStackTrace();
         }
-    }
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
+                // if button is clicked, close the custom dialog
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+        // List of Recognized Result from Image
+        List<String> resultList = ImageRecognizer.recognize(path, this);
+            }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -88,6 +121,20 @@ public class ViewActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onPause()
+    {
+        super.onPause();
+        dialog.dismiss();
+    }
+
+    @Override
+    protected void onDestroy()
+    {
+        super.onDestroy();
+        dialog.dismiss();
     }
 
 
